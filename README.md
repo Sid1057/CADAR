@@ -25,6 +25,7 @@ Table legend:
 
 
 ## Structure
+```
 |
 |_ core
   |
@@ -73,3 +74,5 @@ Table legend:
   |__ Obstacle
   |
   |__ Physics
+  
+```
