@@ -24,7 +24,6 @@ class Camera:
     def test(self, initrics: int):
         'initrics: array 3x3 of initrics camera parameters such a focal length \
          and principial point'
-
         print(np.__version__)
         pass
 

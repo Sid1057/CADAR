@@ -13,7 +13,6 @@ Table legend:
 * each link provide some documentation for an approach
 
 
-
 |Funcionality|Lidar|Radar|Single camera|Stereo camera|
 |:---|---:|---:|---:|---:|
 |Weather and road condition    |<a style="color:red">&#9632;</a>|<a style="color:orange">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:green">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:green">&#9632;</a>|
@@ -23,3 +22,54 @@ Table legend:
 |3D objects velocity           |<a href="docs/approaches/TODO.md" style="color:green">&#9635;</a>|<a href="docs/approaches/TODO.md" style="color:green">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:orange">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:green">&#9635;</a>|
 |Classificated 3D objects      |<a href="docs/approaches/TODO.md" style="color:orange">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:orange">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:orange">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:green">&#9635;</a>|
 |Classificated 3D points cloud |<a href="docs/approaches/TODO.md" style="color:orange">&#9632;</a>|<a style="color:red">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:orange">&#9632;</a>|<a href="docs/approaches/TODO.md" style="color:green">&#9632;</a>|
+
+
+## Structure
+|
+|_ core
+  |
+  |_ Node
+  |
+  |_ Camera
+  |
+  |_ Storage
+|
+|_ modules
+  |
+  |_ ObjectPool
+  |
+  |_ object_detector
+  |
+  |_ RoadMap
+|
+|_ notebooks
+  |
+  |_ Open3D demo
+  |
+  |_ CADAR DEMO
+|
+|_ docs
+|
+|_ data
+  |
+  |_ Sequence_00 (straight street)
+|
+|_ tests
+|
+|_ types
+  |
+  |__ Frame
+  |
+  |__ StereoFrame
+  |
+  |__ Semantic
+  |
+  |__ ObjectSemantic2D
+  |
+  |__ Object2D
+  |
+  |__ Object2D_classified
+  |
+  |__ Obstacle
+  |
+  |__ Physics
