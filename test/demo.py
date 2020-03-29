@@ -36,7 +36,7 @@ for name in names:
 	store.push_data_sync({
 		'left': left,
 		'right': right,
-		'calibration_paremeters': None
+		'calibration_paremeters': None,
 		'semantic': semantic[..., 2],
 		'obstacles_mask': cv.inRange(semantic[..., 2], 6, 8),  # рассказать о таком подходе к разработке с помощью симулятора
 		'depth': depth,
